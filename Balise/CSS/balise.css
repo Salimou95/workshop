@@ -1,0 +1,40 @@
+*{
+    text-align: right;
+}
+body{
+    background: #cbf302;
+}
+header{
+    /* fond du header */
+    background-color: purple;
+    /* Couleur du texte */
+    color: blue;
+    /* Hauteur du texte */
+    height: 100px;
+}
+nav{
+    background-color: yellowgreen;
+    height: 60px;
+}
+section{
+    background-color: red;
+    height: 550px;
+}
+article{
+    background-color: aqua;
+    height: 70px;
+}
+footer{
+    background-color: darkred;
+    height: 40px;
+}
+nav,footer{
+    color: white;
+}
+.jaune{
+    background-color: white;
+}
+#bleu{
+    color: blue;
+    font-size: 25px;
+}

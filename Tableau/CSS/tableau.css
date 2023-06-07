@@ -1,0 +1,37 @@
+*{
+    font-family: fantasy;
+}
+body{
+    width: 50%; /* largeur de ma page 50% de l'ecran */
+    margin: auto;  /* gestion automatique des marges pour que mon tableau soit centrer */
+
+}
+table{
+    border: 4px solid #483d8b;
+    width: 90%; 
+    /*  largeur du tableau par rapport a son contenant donc ici au body */
+    border-collapse: collapse;
+}
+thead, tfoot{
+    background-color: #e6e6fa;
+    border: 3px solid #483d8b;
+}
+tbody{
+    border: 1px solid #483d8b;
+}
+th{
+    border: 1px dotted #483d8b;
+    background-color: #e6e6fa;
+    width: 25%;
+    padding: 4px;
+}
+td{
+    border: 1px dotted #483d8b;
+    text-align: center;
+    font-size: 100%;
+    padding: 5px;
+}
+td:first-child{
+    text-align: left;
+    background-color: #e6e6fa;
+}

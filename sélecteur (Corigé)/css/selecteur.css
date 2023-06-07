@@ -1,0 +1,52 @@
+h1{
+    background: darkcyan;
+    color: white;
+}
+/* on a selectionné tous les <p> à l'interieur de la balise <section> */
+section p{
+    color: red;
+}
+/* premier <p> */
+section p:first-child{
+    color: blue;
+}
+/* dernier p */
+section p:last-child{
+    color: green;
+}
+/* les <p> par pairs */
+section p:nth-child(even){
+    color: lightblue;
+}
+/* les <p> impairs */
+section p:nth-child(odd){
+    color: brown;
+}
+/* Les<p> 3 et 10S */
+section p:nth-child(3),section p:nth-child(10){
+    color: orange;
+}
+.zone1{
+    color: red;
+}
+.zone2{
+    color: blue;
+}
+.lime{
+    color: greenyellow;
+}
+#zone3{
+    background-color: #f5deb3;
+}
+#zone3::after{
+    content:" rajouter aprés";
+
+}
+#zone3::before{
+    content: "rajouter avant ";
+    background-color: cyan;
+}
+ul li:nth-child(2){
+    background-color: darkred;
+    color: white;
+}

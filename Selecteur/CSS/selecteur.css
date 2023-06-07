@@ -1,0 +1,28 @@
+h1{
+    background: black;
+    color: white;
+}
+.rouge{
+    color: red;
+}
+.gris{
+    color: gray;
+}
+.orange{
+    color: orangered;
+}
+mark{
+    background-color: aqua;
+}
+.orangesur{
+    background-color: orange;
+}
+.zone{
+    color: red;
+}
+.zoneii{
+    color: green;
+}
+section p{
+    color: red;
+}

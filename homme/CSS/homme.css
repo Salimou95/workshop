@@ -1,0 +1,68 @@
+table{
+    border: 1px solid gray;
+    margin: auto;
+    border-collapse: collapse;
+}
+tr, th{
+    border: 1px solid black ;
+}
+td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid darkgrey;
+}
+tr{
+    color: grey;
+}
+.gris{
+    background-color: rgba(228, 223, 223, 0.855);
+}
+
+.violet{
+    background-color: purple;
+}
+.violette{
+    background-color: rgb(175, 5, 87);
+}
+.rose{
+    background-color: rgb(255, 3, 87);
+}
+.beige{
+    background-color: rgb(233, 209, 175);
+}
+.beigefon{
+    background-color: rgb(201, 181, 150);
+}
+.vert1{
+    background-color: rgba(13, 118, 80, 0.897);
+}
+.vert2{
+background-color: rgba(56, 148, 114, 0.897);
+}
+.vert3{
+    background-color: rgba(11, 141, 93, 0.897);
+}
+.vertfon{
+    background-color: rgb(16, 40, 16);
+}
+.jaunec{
+    background-color: rgb(246, 234, 100);
+}
+.jaune{
+    background-color: yellow;
+}
+.bleu1{
+    background-color: rgb(1, 106, 181);
+}
+.bleu2{
+    background-color: rgb(5, 151, 255);
+}
+.bleu3{
+    background-color: rgb(136, 205, 255);
+}
+.bleu4{
+    background-color: rgb(100, 202, 249);
+}
+.bleu5{
+    background-color: rgb(191, 232, 251);
+}
