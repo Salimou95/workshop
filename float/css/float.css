@@ -1,0 +1,32 @@
+p{
+    display: inline;
+}
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    margin :0 auto;
+    background-color: lightsteelblue;
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-image: url(/siamois.jpg);
+    border : 5px solid orchid; /*taille,style,couleur: de la bordure */
+    margin : 2vh;
+    background-repeat: no-repeat;
+    background-position: center;
+     float :left;  
+    /* effet flottant , permet de placer des balises cote à cote alors que selon le flux de web standard les élement se placent les uns au dessus des autres*/
+        
+}
+ .boite:hover{
+    margin-top: 10vh;
+ }
+
+.clear{
+    clear: both; /* supprime l'effet flottant*/ 
+}

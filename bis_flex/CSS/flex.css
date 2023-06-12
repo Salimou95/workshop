@@ -1,0 +1,81 @@
+h1{
+    background-color: #3a4454;
+    color: whitesmoke;
+    padding: 1em;
+}
+h2{
+    background-color: #6b376b;
+    color: #3a4454;
+    padding: 0,25em;
+}
+h3{
+    background-color: #c2b2b4;
+    color: #6b376b;
+    padding: 1em;
+}
+.contenu_1{
+    border: 1px solid orange;
+    height: 200px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;  
+    /* la valeur par defaut est row, la valeur possible, row rewerse, colum-reverse */
+    justify-content: space-around;
+    /* la valeur par default ici c'est flex-start les valeur possible ici (centre, flex-end, flex-start, space-between, space-around) *//* space-between elements sont répartiess sur totalité  de la ligne (l'axe principale qui est définit par flex direction ) en crayant des espaces entre les elements space-around: les élements sont réparties sur la totalité de la ligne en cranyant des especes alentours des élement centre :il va centrer les élement dans le contenuer
+    */
+    align-items: center;
+    /* align-items permet d'aligner l'elements des element flexible a sein d'une ligne (ou de cologne) selon l'axe secondaire */
+    /* la valeur par defaut est flex-start, les valeur disponible, flex-start,center, baseline */
+    
+}
+.item1{
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+    /* flex-grow: 1; */
+    order: 2;
+    /* ordre dans lequels les elments s'affiche  */
+}
+.item2{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    /* flex-grow: 2; */
+    flex-basis: 250px;
+    order: 1;
+    flex-shrink: 1;
+    /*pour eviter que les élémentd dépassent notre conteneur on utilise cette proprieté */
+
+    
+}
+.item3{
+    background-color: red;
+    width: 80px;
+    order: 3;
+    height: 80px;
+}
+
+.contenu_2{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenu_3{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenu_4{
+    border: 1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* nowrap les elements seront obligatoirement sur une seul ligne */
+    /* wrap : pouoir d'aller sur une ligne */
+}

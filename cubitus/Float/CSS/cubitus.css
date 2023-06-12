@@ -1,0 +1,26 @@
+.boite{
+    border-radius: 25px;
+    border: solid 2px;
+    height: 100px;
+    width: 100px;
+    padding: 6vh;
+    background-position: center;
+    float: left;
+
+}
+
+
+.clear{
+    clear: both;
+}
+
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+
+ 
+
+

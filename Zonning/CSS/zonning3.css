@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+header,footer{
+    background-color: purple;
+    height: 100px;
+}
+nav{
+    background-color: brown;
+    height: 40px;
+
+}
+section{
+    border: 15px solid darkgoldenrod;
+    background-color: yellowgreen;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.b1, .b2, .b3, .b4{
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    
+
+
+}
+.c1{
+    width: 49%;
+    height: 120px;
+    background-color: brown;
+    border:2px solid white ;
+    
+}
+.c2{
+    width: 49%;
+    height: 120px;
+    background-color: red;
+    border:2px solid white ;
+}
+.c3{
+    width: 49%;
+    height: 120px;
+    background-color: blue;
+    border:2px solid white ;
+}
+.c4{
+    width: 49%;
+    height: 120px;
+    background-color: orange;
+    border:2px solid white ;
+}

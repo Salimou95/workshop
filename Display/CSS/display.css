@@ -1,0 +1,11 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+h1, h2, a, span,section{
+    text-align: center;
+    border: 1px solid orchid;
+    background-color: lightblue;
+}

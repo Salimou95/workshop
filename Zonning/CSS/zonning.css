@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    color: white;
+}
+header,footer{
+    background-color: purple;
+    height: 80px;
+}
+nav{
+    background-color: brown;
+    padding-left: 5px;
+    height: 40px;
+
+}
+section{
+    border: 15px solid darkgoldenrod;
+    height: 500px;
+    background-color: yellowgreen;
+}
+p{
+    color: black;
+}
+

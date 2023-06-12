@@ -1,0 +1,15 @@
+.cercledeg{
+    background: linear-gradient(to right, purple, rgb(0, 195, 255));
+    border-radius: 50%;
+    width: 520px;
+    height: 520px;
+    margin: auto;
+    
+}
+.cerclecorrige{
+    height: 45em;
+    width: 45em;
+    margin: auto;
+    background: linear-gradient(to left, blue, purple);
+    border-radius: 50%;
+}

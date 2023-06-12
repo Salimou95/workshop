@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+header,footer{
+    background-color: purple;
+    height: 100px;
+}
+nav{
+    background-color: brown;
+    height: 40px;
+
+}
+section{
+    border: 15px solid darkgoldenrod;
+    height: 500px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+div{
+    text-align: start;
+}
+.c1{
+    width: 50%;
+    height: 250px;
+    background-color: brown;
+    /* float: left; */
+
+}
+.c2{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+    /* float: right; */
+}
+.c3{
+    width: 50%;
+    height: 250px;
+    background-color: blue;
+    /* float: left; */
+
+}
+.c4{
+    width: 50%;
+    height: 250px;
+    background-color: orange;
+    /* float: right; */
+
+}

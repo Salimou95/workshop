@@ -1,0 +1,45 @@
+.contenu1,.contenu2,.contenu3,.contenu4,.contenu5,.contenu6{
+    display: flex;
+    justify-content: center;
+}
+
+.cube1,.cube2,.cube3,.cube4,.cube5,.cube6{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    float: left;
+    text-align: center;
+   
+}
+.cube3{
+    background-color: aquamarine;
+    border-radius: 50%;
+     animation: spin 2s linear infinite;
+}
+.cube4{
+    background-color: darksalmon;
+    border-radius: 20% 40%;
+}
+.cube2{
+    background-color: cyan;
+    border-radius: 40% 0%;
+}
+.cube1{
+    background-color: green;
+    border-radius: 10% 20% 30% 40%;
+}
+.cube5{
+    background-color: red;
+    border-radius: 20% 40%;
+}
+
+.cube6{
+    height: 10em;
+    width: 10em;
+    margin: 0.2em;
+    float: left;
+    border: 0.2em solid #ffffff00;
+    color: #ffffff00;
+}
+

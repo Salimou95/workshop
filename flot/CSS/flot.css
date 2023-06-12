@@ -1,0 +1,29 @@
+p{
+    display: inline;
+}
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-image: url(/siamois.png) ;
+    border: 5px solid orchid; /* taille, style couleur de la bordure*/
+    margin: 2vh;
+    background-repeat:no-repeat ;
+    background-position: center;
+    float: left;/*  effet flottant, permet de placer des cote a cote alors que selon le flux de web satntard les elements se placent les uns au dessus des autres */
+}
+.clear{
+    clear: both;
+}
+.boite:hover{
+    margin-top: 10vh;
+}
