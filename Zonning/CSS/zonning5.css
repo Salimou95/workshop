@@ -1,0 +1,37 @@
+body{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.haut{
+    width:398px ;
+    height: 40px;
+    background-color: red;
+}
+.lateral{
+    width: 68px;
+    height: 400px;
+    background-color: blue;
+}
+.centre{
+    width: 50px;
+    height: 350px;
+    background-color: green;
+}
+.bas{
+    width: 257px;
+    height: 49px;
+    background-color: yellow;
+    position: relative;
+    bottom: 50px; left: 69px;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+}
+
