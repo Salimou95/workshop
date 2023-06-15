@@ -1,0 +1,13 @@
+ section{
+    width: 1000px;
+    margin: auto;
+    height: 1000px;
+}
+div{
+    height: 150px;
+    width: 150px;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    text-align: center;
+    float: left;
+ }

@@ -1,0 +1,34 @@
+.dice{
+    background-color: orangered;
+    border-radius: 10% ;
+    border: 1px solid orangered;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 2%;
+
+}
+.circle{
+    display: block;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+       
+}
+.un{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+.deux{
+    display:flex;
+    justify-content: space-between;
+}
+
+.deux.circle:nth-of-type(2){
+    align-self: flex-end;
+}
