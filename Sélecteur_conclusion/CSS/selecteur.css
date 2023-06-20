@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    background: #000;
+    color: #71bd14;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    left: 0%;
+}
+nav a{
+    float: left;
+    text-decoration: none; /* pas d'heriage avec l'effet souligner comme c'est standar pour tous les liens sous les navigateurs*/
+    color: #71bd14;
+    background-color: #000;
+    height: 2.8em;
+    line-height: 2.7em; /* interligne*/
+    padding: 0em 2em;
+    font-size: 1.2em;
+    transition: 2s;/*temps de transition lors du hover (survol de la souris)ici 2 seconde*/
+}
+nav a:hover{/*sélection de tous les liens au souris dans la nav*/
+    background-color: yellow;
+    color: black;
+}
+/* 1er container */
+.conteneur{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background-color: white;
+    padding: 2rem;
+}
+mark{
+    background-color: #b5a7cf;
+}
+/* .conteneur1{
+    width: 70%;
+    margin: 2% auto;
+    background-color: #f0e9fd;
+    padding: 2%;
+}
+.conteneur2, .conteneur3{
+    width: 44.5%;
+    background-color: #fafcde;
+    padding: 2%;
+    float: left;
+} */
+.conteneur,.conteneur1{
+    margin: auto;
+    width: 60%;
+    background-color: #d8f498;
+    margin-bottom: 1%
+}
+.conteneur1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteneur2,.conteneur3{
+    width: 47%;
+    border: 1rem solid pink;
+    position: relative;
+    left: 1px;
+
+}
+

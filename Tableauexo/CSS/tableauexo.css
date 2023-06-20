@@ -1,0 +1,28 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+
+}
+
+td{
+}
+
+.tr1{
+    color: red;
+    height: 100px;
+}
+.tr3,.tr4{
+    height: 50px;
+}
+.tr5{
+    height: 100px;
+}
+.tr5,.tr7{
+    color: transparent;
+}
+.es9{
+    font-weight: bold;
+}
+

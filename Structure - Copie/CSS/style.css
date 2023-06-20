@@ -1,0 +1,12 @@
+p,h1{
+    color: blue;
+}
+.bienvenue {
+    color: aquamarine;
+}
+/* attetion les commententaire en css ne se font pas de la meme maniere que html */
+/* NE PAS OUBLIER DE TESTER LE FICHIER STYLE */
+selecteur {
+    propriété: valeur;
+    /* le point virgule est obligatoire pour ne pas avoir d'erreurs */
+}

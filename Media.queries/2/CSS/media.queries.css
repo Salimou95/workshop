@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+header, footer{
+    background-color: crimson;
+    height: 70px;
+    width: 100%
+}
+nav{
+    background-color: black;
+    margin: auto;
+    padding: 1em 1em;
+
+
+
+}
+nav>a{
+    color: white;
+    margin: 2% 3%;
+    text-decoration: none;
+    width: 20px;
+}
+section{
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+section>div{
+    margin-top: 2%;
+    width: 500px;
+    height: 450px;
+}
+.zone1, .zone4{
+    background: linear-gradient(100deg, purple, green);
+}
+.zone2, .zone3{
+    background-color: aquamarine;
+}
+span{color: white;}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+header{
+    background-color: #8e3557;
+    height: 100px;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    padding-left: 2em;
+    padding-top: 35px;
+}
+nav>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+    border-right: 1px solid white;
+    padding-right: 2em;
+}
+nav>a:last-child{
+    border-right: none;
+}
+footer{
+    background-color: palevioletred;
+    height: 100px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+}
+section>div{
+    width: 32vw;
+    /* l'equivalent de 35% de la largeur */
+    height: 50vh;
+}
+.zone1, .zone4{
+    background: linear-gradient(to left, #40a497,#684054, purple);
+}
+.zone2, .zone3{
+    background-color: #73adce;
+}
+.zone3, .zone4{
+    margin-top: 15px;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    /* on a choisi les tailles d'écran entre 992 px et 1200px */
+    /* ajouter les css pour reajuster l'affichage pour les ecrans superieur a 992px */
+    .zone2,.zone3{
+        background-color: pink;
+    }
+    .zone1, .zone4{
+    background: linear-gradient(to left, blue,pink, red);
+    }
+    .container{
+        width: 90%;
+    }
+    section>div{
+        width: 41vw;
+    }
+}
+    @media screen and (min-width:768px) and (max-width:991px){
+    /* on a choisi les tailles d'écran entre 992 px et 1200px */
+    /* ajouter les css pour reajuster l'affichage pour les ecrans superieur a 992px */
+    .zone2,.zone3{
+        background-color: green;
+    }
+    .zone1, .zone4{
+    background: linear-gradient(to left, greenyellow,pink, white);
+    }
+    .container{
+        width: 90%;
+    }
+    section>div{
+        width: 41vw;
+    }
+}
+ @media screen and (max-width:768px){
+    .zone2,.zone3{
+        background-color: gray;
+    }
+    .zone1, .zone4{
+    background: linear-gradient(to left, red,beige, purple);
+    }
+    .container{
+        width: 90%;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav>a{
+        display: block;
+        font-size: 16px;
+        border: none;
+    }
+    nav{
+    height: 150px;
+    line-height: 30px;
+    }
+    .zone2{
+        margin-top: 15px;
+        background-image: url(https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg);
+    }
+    section>div{
+        display:inline;
+    }
+
+ }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/emmet.css">
+    <title>Emmet</title>
+</head>
+<body>
+    <header>
+        <h1>Coder avec emmet</h1>
+    </header>
+    <nav>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+    </nav>
+    <h2 id="html">HTML</h2>
+    <!-- div>h3+code*2p -->
+    <div>
+        <h3>Ajouter un élements enfant : ">"</h3>
+        <code>li>p</code>
+        <code>ul>li>p</code>
+        <p>resultat</p>
+    </div>
+    <!-- div+code+p(résultat :) -->
+    <div>
+        <h3>Ajouter un frere: "+"</h3>
+        <code>ul>li>p+a</code>
+        <p>resultat :</p>
+    </div>
+    
+    <div>
+        <h3>Multiplier un élément</h3>
+        <code>ul>li*3>p</code>
+        <p>resultat :</p>
+    </div>
+    
+    <div>
+        <h3>ajouter une class:"."</h3>
+        <code>ul.white</code>
+        <p>resultat :</p>
+    </div>
+
+    <div>
+        <h3>Grouper les élements :"()"</h3>
+        <code>ul>(header>ul>li*2>a)footer>p</code>
+        <code>ul>(li>p+img+a)+li*2>p>img</code>
+        <p>resultat :</p>
+    </div>
+
+     <div>
+        <h3>Insérer du text dans un élements :"()"</h3>
+        <code>a{clic ici}</code>
+        <code>p>{clic}+a{here}+{to continue}</code>
+        <p>resultat :</p>
+    </div>
+    
+    <div>
+        <h3>commencer la numérotation au chiffre voulu:"$@x"</h3>
+        <code>ul>li.#id</code>
+        <code>ul>li.item$@3*5</code>
+        <p>resultat :</p>
+    </div>
+
+    <div>
+        <h3>numéroter dans l'ordre dévroissant"$@"</h3>
+        <code>ul>li.items$@-*5</code>
+        <p>resultat :</p>
+    </div>
+
+     <div>
+        <h3>remonter d'un element enfant "^"</h3>
+        <code>div>p>em{hello}^a</code>
+        <p>resultat :</p>
+    </div>
+
+     <div>
+        <h3>Ajouter un attribut :[nom:valeur]</h3>
+        <code>img src="https://developer.mozilla.org/fr/" alt="documentation"</code>
+        <p>resultat :</p>
+    </div>
+    
+    <div>
+        <h3>En bref</h3>
+        <code>div.list>ul>(li.item$>p{parapgraph $}+img[src="http://placecage.com/300/300"])+li.item$@2*4>p{paragraph $@2}+img[src="http://placesheen.com/$@1$$/$@5$$"]+a^^^footer>p{Place cage vrs placesheen}</code>
+        <p>resultat :</p>
+    </div>
+    <div>
+        <p>le premier regroupement contient un &lt;li> qui a deux enfants :&lt;p> qui contiennent du text et une &lt;img> qui a un attribut src.</p>
+        <p>le regroupement suivant contient les &lt;li> 2 a 5, en mutilpliant des liste dont les noms de classe, contenu de paragraphe et valeur bd'attributs s'increments selondes syntaxe différentes. Chaque &lt;li> contient une ancre invariable</p>
+        <p>enfin les 3 ^^^^ permettent de remonter les elemens parents pour les placer le footer au meme niveau que la div</p>
+    </div>
+</body>
+</html>

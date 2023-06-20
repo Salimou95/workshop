@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+ul{
+    /* selectionne toutes les listes <ul> */
+    list-style: none; /*supprimer les puces des listes*/
+    float: left;/*effet flottant a gauche*/
+    margin: 0;/*marge exterieur*/
+    padding: 0;/*marge intérieur*/
+}
+.left>ul{
+    margin: 3.2em 0 0 0;
+}
+.left{
+    margin-top: 5em;
+}
+.left>ul>li{ /*selectionne tous les <li> de la liste <ul> ayant la class .left*/
+    border-bottom: 1px solid #ccc;
+    border-left: #ccc;
+    padding:1em;
+    width: 10em;
+}
+.left>ul>li:first-child{/*premier <li> de la liste <ul> ayant la class left*/
+    border-top: 1px solid #ccc;
+}
+.liste>li{
+    border-left: 1px solid #ccc; 
+}
+.right>.change>ul>li{/*tous les <li> de la liste <ul> ayant la class .change elle meme enfant de la class .right*/
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+}
+.right .change ul li:last-child{/*le dernier <li> de la liste <ul> ayant la class .change elle meme enfant de la class .right*/
+    border-bottom: 1px solid #ccc;
+}
+.right .change ul li:first-child{/*le premier <li> de la liste <ul> ayant la class .change elle meme enfant de la class .right*/
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+/* effet de transition au survol de la souris */
+.right>.change>ul:hover{/* au survol e la souris on sélectionne la liste <ul> ayant la class .change elle meme enfant de la class .right*/
+    background: linear-gradient(#d5d5d5, #8a8a8a);/*degrer de la couleur */
+    transition: 2s;/*durée de l'effet de transition*/
+    cursor: pointer;/* +*/
+    transform: scale(1.4);/*l'echelle de zoom*/
+}
+.change:hover #premium{
+    color: #b9F2FF;
+}
+.change:hover #gold{
+    color: #ffd700;
+}
+.change:hover #silver{
+    color: #bfc1c2;
+}
+.change li:hover{
+    color: red;
+}

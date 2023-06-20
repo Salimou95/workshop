@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+
+}
+li{
+    padding: 2%;
+    position: relative;
+    bottom: 16px;
+    border: 0.5px solid gray;
+}
+.change, #clear{
+    width: 100px;
+    height: 150px;
+    transition: 2s;
+    }
+.change:hover{
+    background: linear-gradient( #ffffff, #494949);
+    transform: scale(1.1);
+}
+#premium:hover{
+    color: gold;
+}
+#gold:hover{
+    color: gold;
+}
+#silver:hover{
+    color: gold;
+}
+#premium, #gold, #silver, #clear{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 16px;
+    text-align: center;
+    height: 25px;
+    transition: 2s;
+}
+#clear{
+    background-color: #25252500;
+    color: #25252500;
+    border: #25252500;
+}
+

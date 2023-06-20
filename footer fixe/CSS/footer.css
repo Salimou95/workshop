@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: palevioletred;
+    height: 100px;
+
+}
+footer{
+    position: fixed;
+    background-color: palevioletred;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+
+}
+html{
+    height:100%;
+}
+body{
+    min-height: 130%;
+}
+.conteneur{
+    min-height: 100%;
+}
