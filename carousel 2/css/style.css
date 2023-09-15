@@ -1,0 +1,15 @@
+.principal{
+    width: 90%;
+    margin: auto;
+}
+.principal>div>div>img{
+    height: 70vh;
+}
+
+.carouselExample{
+    width: 30%;
+
+}
+button{
+    background-color: black;
+}

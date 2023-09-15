@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script&family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  background-image: url("../img/eggs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+}
+.divh {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0 1% 1%;
+}
+.divh > p {
+  color: gray;
+  padding-left: 3%;
+}
+.divh > nav {
+  width: 50%;
+}
+nav > ul > li {
+  display: inline;
+  padding: 1% 2%;
+}
+nav > ul > li:nth-child(5) {
+  border: 1px solid #dea112;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+.labelh {
+  text-align: center;
+}
+.labelh > h2 {
+  margin: 5%;
+  font-size: 300%;
+}
+.labelh > h1 {
+  font-size: 700%;
+  margin-bottom: 5%;
+}
+.labelh > h3 {
+  color: #bcbfb8;
+  font-size: 150%;
+}
+
+h2 {
+  color: #dea112;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: 100;
+  font-family: "Dancing Script", cursive;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.divsec {
+  display: flex;
+  width: 55%;
+  align-items: center;
+}
+.divsec > figure > img {
+  border: 1px solid #dea112;
+  padding: 10% 0 0 10%;
+  position: relative;
+  bottom: 8.5vh;
+}
+.divsec > div {
+  width: 50%;
+  flex-direction: column;
+}
+.divsec > div > p {
+  width: 150%;
+  margin-bottom: 6%;
+  width: 93%;
+}
+.divsec > div > h3 {
+  margin: 10% 0 6% 0;
+}
+.divsec > div > a {
+  color: #dea112;
+}
+.divsec > .imgleft {
+  border: 1px solid #dea112;
+  padding: 4% 4% 0 0;
+}
+
+.menu {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.menu > div > h2,
+.menu > div > h3,
+.menu > div > p {
+  text-align: center;
+}
+.menu > div > h3 {
+  margin: 3% 0 1% 0;
+}
+.menu > div > p {
+  width: 55%;
+  margin: auto;
+}
+.menu > div > ul {
+  margin: 5% 0 6% 0;
+  text-align: center;
+}
+.menu > div > ul > li {
+  display: inline;
+  padding: 2%;
+}
+.secmenu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.secmenu > div {
+  width: 50%;
+  display: flex;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+.secmenu > div > div {
+  width: 50%;
+}
+.secmenu > div > img {
+  width: 35%;
+}
+.secmenu > div > div > p {
+  line-height: 140%;
+  color: grey;
+}
+.secmenu > div > div:nth-child(1) {
+  text-align: right;
+}
+h4 {
+  margin-bottom: 2%;
+}
+.secmenu > div > div > .dollar {
+  font-family: "Dancing Script", cursive;
+  font-size: 200%;
+  margin-top: 10%;
+  color: #dea112;
+}
+.chef {
+  width: 60%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+.chef > div > h3 {
+  margin: 10% 0 2% 0;
+}
+.chef > div > p {
+  margin-bottom: 15%;
+}
+.chef > div > a {
+  color: #dea112;
+}
+.reservation {
+  background-image: url(../img/reservation.jpg);
+  height: 70vh;
+  background-size: cover;
+  width: 90%;
+  text-align: center;
+}
+.reservation > div {
+  display: flex;
+  flex-direction: column;
+}
+.reservation > div > h2 {
+  margin: 5%;
+  font-size: 400%;
+}
+.reservation > div > h3 {
+  font-size: 200%;
+}
+.reservation > div > p {
+  width: 75%;
+  align-self: center;
+  font-size: 150%;
+  margin: 2%;
+}
+input,
+select {
+  height: 4vh;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #767465;
+  width: 10%;
+  text-align: center;
+  position: relative;
+  left: 10vh;
+  margin-left: 1%;
+}
+.boutton {
+  background-color: #dea112;
+  color: white;
+  position: relative;
+  top: 10vh;
+  left: -30vh;
+}
+article {
+  line-height: 150%;
+  width: 60%;
+  margin: 3% 0;
+}
+article > a {
+  color: #dea112;
+  position: relative;
+  left: 90%;
+  top: 5%;
+}
+span {
+  font-weight: bold;
+  width: 1%;
+  margin-bottom: 2%;
+}
+.firstart {
+  text-align: end;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+figcaption {
+  text-align: center;
+  background-color: #dea112;
+  width: 100%;
+  margin-left: 10%;
+  position: relative;
+  bottom: 10vh;
+}
+button {
+  position: relative;
+  top: 31.5%;
+  right: 30%;
+  height: 5vh;
+  font-size: 120%;
+  width: 15%;
+  color: white;
+  background-color: #dea112;
+  border-radius: 10px;
+}
+.souspart {
+  margin-left: 21%;
+  text-align: right;
+}
+.souspart > div > p {
+  display: inline-flex;
+}
+footer {
+  background-image: url(../img/splash.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #373737;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10% 0 10%;
+}
+footer > div {
+  width: 25%;
+  margin-top: 8%;
+  height: 30vh;
+}
+
+footer > div > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+footer > div > p {
+  color: #d4d4d4;
+  line-height: 130%;
+}
+footer > p {
+  width: 100%;
+  color: #d4d4d4;
+}
+.pourcent {
+  background-color: #dea112;
+  color: white;
+  text-align: center;
+  padding: 1.5vh 0;
+  font-size: 200%;
+  border-radius: 5px;
+  position: relative;
+  top: 4vh;
+  left: 100%;
+  z-index: 1;
+  width: 35%;
+}
+.promo {
+  color: #dea112;
+  font-size: 200%;
+  position: relative;
+  bottom: 8.5vh;
+  left: 75%;
+}
+.promo > strike {
+  color: white;
+}

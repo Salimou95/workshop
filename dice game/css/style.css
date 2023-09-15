@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu>button{
+    margin: 10%;
+}

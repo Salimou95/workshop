@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    
+
+}
+header{
+    
+    background-image: url(/img/bois.png);
+    font-family: 'Caveat Brush';
+}
+nav{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+        list-style: none;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.trait{
+    border: 4px solid rgb(229, 63, 111);
+    width: 20%;
+    margin: auto;
+}
+.traitsection{
+    border: 5px solid rgb(229, 63, 111);
+    width: 5%;
+    margin: 4% auto 4% auto;
+
+}
+p{
+    margin-top: 2%;
+}
+h3{
+    margin-top: 2%;
+    color:rgb(229, 63, 111) ;
+
+}
+span{
+    text-decoration: underline;
+    font-size: 80%;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+header>div>img{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    z-index: 2;
+}
+.triangle{
+ height : 0;
+ width : 0;
+ border-top : 250px solid rgb(229, 63, 111);
+ border-left : 250px solid transparent;
+ opacity: 99%;
+ position: absolute;
+ bottom: 43%;
+ left: 42%;
+ z-index: 1;
+}
+header>a>i{
+    font-size: 600%;
+    position: relative;
+    left: 45.5%;
+}
+
+main>section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+main>section>div{
+    width: 28%;
+    text-align: center;
+    padding: 4%;
+}
+main>section>div>h1{
+    font-size: 220%;
+}
+main>section>div>img{
+    width: 70%;
+}
+main>section>img{
+    width: 64%;
+}
+.asperge{
+   transform: scaleX(-1)
+}
+#fare>div{
+    width: 20%;
+}
+#fare>img{
+    width: 70%;
+}
+.oeuf{
+    background-image: url(/img/oeuf.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer{
+    background-image: url(/img/motif.jpg);
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>div>h1{
+    font-family: 'Caveat Brush';
+}

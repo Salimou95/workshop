@@ -1,0 +1,79 @@
+
+header{
+    background-image: url(3092281.jpg);
+    height: 550px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header>img{
+    width: 170px;
+    height: 60px;
+}
+
+li{
+    display: inline;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    align-self: flex-end;
+    opacity: 80%;
+}
+input{
+    width: 40%;
+    height: 40px;
+}
+button{
+    width: 10%;
+    height: 50px;
+
+}
+#galerie{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background
+}
+#galerie>img{
+width: 250px;
+height: 300px;
+margin: 0 1%;
+cursor: pointer;
+}
+h2,p,h1{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 300%;
+    color: white;
+}
+.divImage{
+    width: 250px;
+    height: 300px;
+    margin: 0 1%;
+}
+.divImage img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.titre{
+    position: relative;
+    top: 65%;
+    font-size: 150%;
+    color:white;
+    font-weight: bold;
+
+}

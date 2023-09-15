@@ -1,0 +1,12 @@
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<h2>Mini Facebook</h2>
+
+<ul class="list-group" style="list-style:none;">
+<app-post *ngFor = "let post of posts " [titlePost]="post.title" [contentPost]="post.content"></app-post>
+
+</ul>
+</div>
+</div>
+</div>

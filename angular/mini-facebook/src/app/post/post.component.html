@@ -1,0 +1,10 @@
+<h2>Mon Post</h2>
+<li>
+<h4>{{title}}</h4>
+<p>{{content}}</p>
+<button class = 'like' [ngClass]="{'hide' : active === true}" (click)="like()" >J’aime</button>
+<button class = 'nolike'[ngClass] ="{'hide' : active === false}" (click)="like()">Je n'aime pas</button>
+
+<textarea [(ngModel)]="msg"></textarea>
+<p>{{msg}}</p>
+</li>

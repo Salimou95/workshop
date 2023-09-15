@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="global.js" defer></script>
+    <script src="gamepion.js" defer></script>
+    <script src="gamepionbox.js" defer></script>
+    <script src="cage.js" defer></script>
+    <script src="gamerow.js" defer></script>
+    <script src="game.js" defer></script>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Mastermind Game</h1>
+      <div>
+        <select name="level" id="level">
+          <option value="Starter">Debutant</option>
+          <option value="Medium">Moyen</option>
+          <option value="Hard">Confirmé</option>
+        </select>
+      </div>
+      <div>
+        <button type="button" id="newGame">Nouvelle partie</button>
+      </div>
+      <div id="pionBox" class="pionBox">
+        <!-- injecter des pions -->
+      </div>
+      <div class="pionBox">
+        <button type="button" class="game">Jouer</button>
+      </div>
+      <div class="rowContainer" id="rowContainer">
+        
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

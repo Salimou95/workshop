@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    
+}
+ul{
+     display: flex;
+    justify-content: space-around;
+    }
+    ul li {
+        padding-left: 20px;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: hsl(35, 77%, 62%);
+}
+nav{
+    display: flex;
+    
+}
+
+li{
+    display: inline;
+    padding-left: 1%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.premiere{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.premiere>img{
+    width: 1000px;
+    height:300px;
+}
+.premiere>div{
+    width: 35%;
+}
+.premiere>div>h1{
+    font-size: 350%;
+    color:hsl(240, 100%, 5%) ;
+}
+.premiere>div>p{
+    color:hsl(236, 13%, 42%) ;
+}
+.premiere>div>div{
+    margin-top: 15%;
+    background-color: hsl(5, 85%, 63%);
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    letter-spacing: 5px;
+
+    
+}
+.premiere>div>div:hover{
+    background-color:hsl(240, 100%, 5%) ;
+}
+.premiere>div>div>a{
+    color: white;
+}
+.second{
+    padding-top: 2%;
+    width: 25%;
+    margin-left: 5%;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    height: 490px;
+}
+.second>div{
+    width: 80%;
+    margin: auto;
+}
+
+.second>div>p{
+    font-weight: 0;
+    color: hsl(236, 13%, 42%);
+}
+.second>h2{
+    
+    color: hsl(35, 77%, 62%);
+    font-size: 200%;
+    width: 80%;
+    margin: auto;
+}
+.second>{
+    color: white;
+}
+.second>div>h3:hover{
+    color: hsl(35, 77%, 62%);
+}
+.trait{
+    border: 1px solid white;
+}
+.titre{
+    position: relative;
+    bottom: 5%;
+}
+.troisieme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.troisieme>div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+}
+.troisieme>div>img{
+    width: 30%;
+}
+.troisieme>div>div{
+    width: 60%;
+    margin: auto;
+}
+.troisieme>div>div>h2, .troisieme>div>div>p{
+    color:hsl(236, 13%, 42%) ;
+}
+.troisieme>div>div>a{
+    color:hsl(240, 100%, 5%) ;
+    font-weight: 1000;
+    font-size: 120%;
+}

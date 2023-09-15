@@ -1,0 +1,11 @@
+body{
+    background-color: #ddeea4;
+    font-family: sans-serif;
+}
+
+#conteneur{
+    width: 770px;
+    margin: 0 auto;
+    text-align: left;
+    
+}

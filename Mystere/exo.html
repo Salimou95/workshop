@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulaire de réservation</h1>
+      <form id="myForm">
+        <div>
+          <input type="text" id="nom" placeholder="nom" />
+        </div>
+        <div>
+          <input type="text" id="email" placeholder="email" />
+        </div>
+        <div>
+          <input type="text" id="téléphone" placeholder="téléphone" />
+        </div>
+        <div class="special">
+          <div>
+            <select name="" id="plat">
+              <option  value="15">thiebou dieune => 15 €</option>
+              <option value="12">salade de quinoa => 12 €</option>
+              <option value="11">sushi burger => 11 €</option>
+              <option value="9">filets de poulet panes => 9 €</option>
+            </select>
+            <input type="text" id="totalht" placeholder="Total HT" disabled />
+          </div>
+
+          <div>
+            <select name="" id="desert">
+              <option value="15">churros maison => 15 €</option>
+              <option value="12">biscuits au pepites => 12 €</option>
+              <option value="11">buche de noel => 11 €</option>
+              <option value="9">gateau au fromage => 9 €</option>
+            </select>
+
+            <input type="text" id="Totalttc" placeholder="Total TTC" disabled />
+          </div>
+        </div>
+
+        <div class="conditions"  >
+          <input type="checkbox" id="checkbox" />
+          <label id="ici" for="">J'accepte les conditions générales</label>
+        </div>
+        <div>
+          <button type="button" id="btn">Valider ma commande</button>
+        </div>
+      </form>
+    </div>
+    <script src="exo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 50%;
+        margin: auto;
+      }
+      input {
+        height: 35px;
+        width: 100%;
+      }
+      button {
+        width: 200px;
+        height: 35px;
+      }
+      .form {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="new_game">Nouveaux Jeux</button>
+      <button id="solution">Solution</button>
+      <button id="proposer">Propose</button>
+      <form id="myForm">
+        <div class="form">
+          <div>
+            <label for="">Proposition</label>
+            <input type="text" id="proposition" />
+          </div>
+          <div>
+            <label for="">N°essai</label>
+            <input type="text" id="essai" value="0" disabled />
+          </div>
+          <div>
+            <label for="">Message</label>
+            <input type="text" id="message" disabled />
+          </div>
+          <div>
+            <label for="">Reponse</label>
+            <input type="text" id="reponse" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

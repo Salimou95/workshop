@@ -1,0 +1,7 @@
+{
+  "name": "instangram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

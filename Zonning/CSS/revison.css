@@ -1,0 +1,46 @@
+body{
+    width: 1500px;
+    margin: auto;
+    border: 1px solid black;
+    color: white;
+}
+header{
+    background-color: brown;
+    height: 30px;
+}
+nav{
+    background-color: burlywood;
+    height: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    border: 10px solid white;
+    justify-content: center;
+}
+div{
+    width: 740px;
+    height: 250px;
+}
+.marron{
+    background-color: brown;
+}
+.vert{
+    background-color: green;
+}
+.beige{
+    background-color: beige;
+}
+.bleu{
+    background-color: blue;
+}
+img{
+    width: 740px;
+    height: 250px;
+
+}
+footer{
+    background-color: brown;
+    height: 50px;
+}

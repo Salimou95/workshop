@@ -1,0 +1,133 @@
+ body{
+    background-image: url(../img/concrete-texture.png);
+   
+ } 
+ /* Header */
+ header{
+    background: #2c3e50;
+    height: 175px;
+    display: flex;
+ }
+ #logo{
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+ }
+ #slogan{
+    width: 50%;
+    padding-top: 50px;
+ }
+ #social{
+    width: 25%;
+ }
+ #social i {
+    display: block;
+    padding: 15px 30px 0 0;
+    text-align: center;
+    font-size: 30px;
+ }
+ h1{
+    font-size: 45px;
+    font-family: 'Anton',sans-serif;
+    color: #2980b9;
+    text-align: center;
+    letter-spacing: 1px;
+ }
+ header a{
+    color: #2980b9;
+    text-decoration: none;
+ }
+ /*Nav*/
+ nav {
+    background-color: #2980b9;
+    height: 30px;
+    border-bottom: 8px solid #6ACAFC;
+    text-align: center;
+    padding: 15px;
+ }
+ nav a{
+    border: 2px solid white;
+    background: #6ACAFC;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    padding: 2px 10px;
+
+ }
+ nav a:hover{
+    background-color: #A6D6C3;
+    color: white;
+
+ }
+ .activ{
+    background-color: #2c3e50;
+    color: white;
+ }
+ /**footer*/
+ footer{
+    background: #2980b9;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: right;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column;
+    align-items: flex-end; */
+}
+/* footer small{
+    padding-left: 1020px;
+} */
+
+/*Bouton*/
+button{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    font-size: 350%;
+    color: #2D5C7F;
+    cursor: pointer;
+}
+/*Main*/
+main{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(178,178,178,0.30);
+}
+aside{
+    height: 250px;
+    background-color: #A6D6C3;
+}
+section{
+    margin-top: 50px;
+    padding: 20px;
+}
+/*zone text*/
+h2{
+    font-size: 35px;
+    color: #2c3e50;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+
+}
+h3{
+    font-size: 22px;
+    color: #2c3e50;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+blockquote{
+    font-size: 120%;
+}
+ 
+
+
+
+
+
+
