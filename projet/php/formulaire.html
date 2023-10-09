@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="action.php" method="get">
+      <p>Votre nom : <input type="text" name="nom" /></p>
+      <p>Votre âge : <input type="text" name="age" /></p>
+
+      Choisissez des fruits:&nbsp;
+      <select name="sel[]" multiple>
+        <option>Fraise</option>
+        <option>Pomme</option>
+        <option>Poire</option>
+        <option>Banane</option>
+        <option>Cerise</option>
+      </select>
+
+      Choisissez des fruits:<br>
+<input type="checkbox" name="sele[]" value="Fraise">Fraise</input><br>
+<input type="checkbox" name="sele[]" value="Pomme">Pomme</input><br>
+<input type="checkbox" name="sele[]" value="Poire">Poire</input><br>
+<input type="checkbox" name="sele[]" value="Banane">Banane</input><br>
+<input type="checkbox" name="sele[]" value="Cerise">Cerise</input><br> 
+      <p><input type="submit" value="OK" /></p>
+
+    </form>
+  </body>
+</html>
