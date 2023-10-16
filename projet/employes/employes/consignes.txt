@@ -1,0 +1,6 @@
+1- la base de données ici c'est la table employes de la base entreprise
+2-afficher la liste des employés avec tous les détails dans un tableau et devant chaque ligne affiché on ajoute deux colonnes(modifier et supprimer)
+3-creer un lien en haut du tableau pour ajouter un nouveau employes
+4-creer une page qui permet d'ajouter un nouveau employe avec tous les champs
+5-Créer une page pour modifier un employe existant, et appeler la page modification sur le boutton modification(vous pouvez voir l'affichage du l'exercice pour avoir un idée)
+6-finalement ajouter un script pour supprimer un employé bien déterminé

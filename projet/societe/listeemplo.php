@@ -13,9 +13,9 @@ include("connexion.php")
 </head>
 <body>
     <section class="col-8 container">
-        <div class="bg-warning text-dark p-2 bg-opacity-50 ">
-            <h1 class="d-inline">Liste des employés</h1>
-            <td class="d-inline"><a href="ajout.php" type="button" class="btn btn-warning">Ajouter un nouvel employé</a></td>
+        <div class="bg-warning text-dark p-2 bg-opacity-50 d-flex justify-content-between">
+            <h1>Liste des employés</h1>
+            <td><a href="ajout.php" type="button" class="btn btn-warning">Ajouter un nouvel employé</a></td>
     </div>
         <div>
             <table class="table table-striped">
@@ -39,9 +39,9 @@ include("connexion.php")
                     <td><?php echo $emp['nom']?></td>
                     <td><?php echo $emp['sexe']?></td>
                     <td><?php echo $emp['service']?></td>
-                    <td><?php echo $emp['prenom']?></td>
-                    <td><?php echo $emp['prenom']?></td>
-                    <td><a href="modification.php" type="button" class="btn btn-warning">Modifier</a></td>
+                    <td><?php echo $emp['date_embauche']?></td>
+                    <td><?php echo $emp['salaire']?></td>
+                    <td><a href="modification.php?id=<?php echo $emp['id_employes']?>" type="button" class="btn btn-warning">Modifier</a></td>
                     <td><a href="" type="button" class="btn btn-danger">Supprimer</a></td>
                 </tr>
 <?php

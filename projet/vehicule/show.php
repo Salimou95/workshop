@@ -1,6 +1,7 @@
 <?php
 include("connexion.php");
 if (isset($_GET['id'])) {
+
                $_GET['id'] = htmlentities($_GET['id'], ENT_QUOTES);
                $req = $pdo->prepare("SELECT * FROM proprietaire WHERE proprietaire_id = :id_proprietaire");
                $req->bindParam(':id_proprietaire', $_GET['id']);

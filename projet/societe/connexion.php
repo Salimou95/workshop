@@ -4,4 +4,5 @@ array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,
     PDO::MYSQL_ATTR_INIT_COMMAND => 'set NAMES utf8'));
     $pdostat = $pdo->query("SELECT * FROM employes");
     $pdostat->setFetchMode(PDO::FETCH_ASSOC) ;
+    
 ?>
