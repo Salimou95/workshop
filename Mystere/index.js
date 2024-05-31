@@ -1,4 +1,4 @@
-const NEW = document.getElementById("new_game");
+ const NEW = document.getElementById("new_game");
 
 const SOLUTION = document.getElementById("solution");
 
